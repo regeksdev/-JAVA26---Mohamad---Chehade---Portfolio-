@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 40px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.id-card {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    border: 2px solid #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.information {
+    float: right;
+    /*     display: inline-block;
+ */
+    margin-top: 0;
+    color: #333;
+    padding-right: 90px;
+}
+
+.id-card p {
+    color: #555;
+}
+
+#ai {
+    background: #BB39D4;
+    background: linear-gradient(90deg, rgba(187, 57, 212, 1) 0%, rgba(88, 44, 142, 1) 50%);
+    border-color: #ff07c9;
+}
+
+#timearchitect {
+    background: #414141;
+    background: linear-gradient(90deg, rgba(65, 65, 65, 1) 0%, rgba(7, 7, 7, 1) 50%);
+    border-color: #ff00d4;
+}
+
+.profile-circle {
+    float: left;
+    width: 20px;
+    position: relative;
+    background-color: #5a5a5a;
+    text-align: center;
+    padding: 20px;
+    width: 20px;
+    height: 30;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.status {
+    float: right;
+    width: 70px;
+    border-radius: 50px;
+    border-color: white;
+}
+
+.idnumber {
+    float: right;
+    width: 5px;
+    position: absolute;
+    right: 0px;
+    bottom: 15px;
+    padding-right: 50px;
+    color: white;
+}
