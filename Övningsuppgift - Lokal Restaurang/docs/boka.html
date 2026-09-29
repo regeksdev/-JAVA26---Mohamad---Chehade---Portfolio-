@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Boka bord på Green Mango, thairestaurang på Fersens väg i Malmö.">
+  <meta name="keywords" content="boka bord, Green Mango, thairestaurang, Malmö, middag, lunch">
+  <meta name="theme-color" content="#f4f0e8">
+  <title>Boka bord | Green Mango Malmö</title>
+  <link rel="icon" type="image/png" href="images/green-mango-logo.png">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Hoppa till innehållet</a>
+  <header class="site-header"><a class="brand" href="index.html" aria-label="Green Mango, startsida"><img src="images/green-mango-logo.png" alt=""><span>GREEN<br>MANGO</span></a><nav class="main-nav" aria-label="Huvudmeny"><a href="index.html">Hem</a><a href="menu.html">Meny</a><a class="nav-book current" href="boka.html" aria-current="page">Boka bord <span aria-hidden="true">↗</span></a></nav></header>
+  <main id="main" class="booking-main">
+    <section class="booking-intro"><p class="eyebrow">EN PLATS VID BORDET</p><h1>Gör plats<br><em>för en kväll.</em></h1><p>Fyll i dina önskemål så återkommer vi. Vill du boka samma dag? Ring oss gärna direkt.</p><a class="phone-link" href="tel:+46406111210">040-611 12 10 <span aria-hidden="true">↗</span></a><div class="hours-note"><span class="sun-mark" aria-hidden="true">✳</span><p><strong>Hitta hit</strong><br>Fersens väg 5<br>211 42 Malmö</p></div></section>
+    <section class="booking-form-wrap" aria-labelledby="form-title"><p class="eyebrow">BORDSFÖRFRÅGAN</p><h2 id="form-title">När ses vi?</h2>
+      <!-- Formuläret öppnar e-postappen så att förfrågan kan skickas utan server. -->
+      <form class="booking-form" action="mailto:info@greenmango.se" method="post" enctype="text/plain">
+        <div class="form-field full-field"><label for="guest-name">Namn</label><input id="guest-name" name="Namn" type="text" autocomplete="name" placeholder="Ditt namn" required></div>
+        <div class="form-field"><label for="guest-date">Datum</label><input id="guest-date" name="Datum" type="date" required></div>
+        <div class="form-field"><label for="guest-time">Tid</label><input id="guest-time" name="Tid" type="time" required></div>
+        <div class="form-field"><label for="guest-count">Antal personer</label><select id="guest-count" name="Antal personer"><option>1 person</option><option selected>2 personer</option><option>3 personer</option><option>4 personer</option><option>5 eller fler</option></select></div>
+        <div class="form-field full-field"><label for="guest-notes">Övriga önskemål</label><textarea id="guest-notes" name="Övriga önskemål" rows="4" placeholder="Allergier, barnstol eller annat vi bör veta"></textarea></div>
+        <button class="button button-dark full-field" type="submit">Skicka bokningsförfrågan <span aria-hidden="true">↗</span></button>
+      </form><p class="form-note">Förfrågan skickas via din e-postapp och är bekräftad först när vi har svarat.</p>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="footer-brand" href="index.html">GREEN<br>MANGO<span>THAI RESTAURANG</span></a><div class="footer-details"><div><h2>HITTA HIT</h2><address>Fersens väg 5<br>211 42 Malmö</address></div><div><h2>KONTAKT</h2><a href="tel:+46406111210">040-611 12 10</a><a href="mailto:info@greenmango.se">info@greenmango.se</a></div><div><h2>FÖLJ OSS</h2><a href="https://www.instagram.com/greenmango.se/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://www.facebook.com/profile.php?id=100063558280116" target="_blank" rel="noopener noreferrer">Facebook ↗</a></div></div><p class="copyright">© Green Mango · Malmö</p></footer>
+</body>
+</html>
